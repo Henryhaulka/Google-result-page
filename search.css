@@ -14,9 +14,9 @@ header {
 }
 nav {
     float: right;
-    width: 7%;
+    width: 10%;
     padding: 5px;
-    display: block;
+    display: flex
 
 
 }
@@ -39,6 +39,8 @@ nav {
     height: 33px;
     padding-top: 5px;
     border-radius: 20px;
+    display: flex;
+    
 }
 .row .side:hover{
     box-shadow: 2px 2px 5px gray;
@@ -61,6 +63,8 @@ nav {
     padding: 5px;
     font-size: 20px;
     float: right;
+    display: flex;
+    flex-direction: row;
 }
 .side #b2 {
     color: blue;
@@ -70,10 +74,10 @@ nav {
     color: grey;
     padding-right: 15px;
     border-right: 1px solid  rgb(187, 177, 212);
-    
+    margin-bottom: 3px;
 }
 .drop #ri {
-    padding-left: 100px;
+    margin-left: 100px;
     color: gray;
 }
 .drop #ash {
@@ -95,18 +99,20 @@ border: none;
     padding-right: 60px;
 }
 .drop {
-    padding-bottom: 10px;
+    
     padding-top: 10px;
-    padding-left: 180px;
-    width: auto;
+    padding-left: 13%;
+    width: 100%;
     border-bottom: 1px solid rgb(187, 177, 212);
+    display: flex;
+    flex-wrap: nowrap;
 }
 .drop i {
     padding-top: 10px;
 }
 main{
     width: 620px;
-    padding-left: 190px;
+    padding-left: 15%;
 }
 main h3 {padding-top: 0;
     margin-top: 0;
@@ -328,5 +334,5 @@ footer ,a {text-decoration: none;}
 .foot {
     padding: 10px;
 
-    margin-left: 170px;
+    margin-left: 10%;
 }
